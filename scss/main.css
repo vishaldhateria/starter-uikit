@@ -104,7 +104,7 @@ strong {
   color: #f0506e;
   white-space: nowrap;
   padding: 2px 6px;
-  background: white; }
+  background: #f8f8f8; }
 
 /*
  * Emphasize
@@ -713,7 +713,7 @@ a.uk-link-reset:hover,
     border-bottom: 1px solid #e5e5e5; }
 
 .uk-list-striped > li:nth-of-type(odd) {
-  background: white; }
+  background: #f8f8f8; }
 
 .uk-list-striped > li:nth-child(n+2) {
   margin-top: 0; }
@@ -877,7 +877,7 @@ a.uk-link-reset:hover,
  */
 .uk-table-striped > tr:nth-of-type(odd),
 .uk-table-striped tbody tr:nth-of-type(odd) {
-  background: white;
+  background: #f8f8f8;
   border-top: 1px solid #e5e5e5;
   border-bottom: 1px solid #e5e5e5; }
 
@@ -1076,7 +1076,7 @@ button.uk-icon:not(:disabled) {
   width: 36px;
   height: 36px;
   border-radius: 500px;
-  background: white;
+  background: #f8f8f8;
   color: #999;
   vertical-align: middle;
   /* 1 */
@@ -1097,14 +1097,14 @@ button.uk-icon:not(:disabled) {
 /* Hover + Focus */
 .uk-icon-button:hover,
 .uk-icon-button:focus {
-  background-color: #f2f2f2;
+  background-color: #ebebeb;
   color: #666;
   outline: none; }
 
 /* OnClick + Active */
 .uk-icon-button:active,
 .uk-active > .uk-icon-button {
-  background-color: #e6e6e6;
+  background-color: #dfdfdf;
   color: #666; }
 
 /* ========================================================================
@@ -1217,32 +1217,32 @@ button.uk-icon:not(:disabled) {
 /* Webkit */
 .uk-range::-webkit-slider-runnable-track {
   height: 3px;
-  background: #f2f2f2;
+  background: #ebebeb;
   border-radius: 500px; }
 
 .uk-range:focus::-webkit-slider-runnable-track,
 .uk-range:active::-webkit-slider-runnable-track {
-  background: #d9d9d9; }
+  background: #d2d2d2; }
 
 /* Firefox */
 .uk-range::-moz-range-track {
   height: 3px;
-  background: #f2f2f2;
+  background: #ebebeb;
   border-radius: 500px; }
 
 .uk-range:focus::-moz-range-track {
-  background: #d9d9d9; }
+  background: #d2d2d2; }
 
 /* Edge */
 .uk-range::-ms-fill-lower,
 .uk-range::-ms-fill-upper {
   height: 3px;
-  background: #f2f2f2;
+  background: #ebebeb;
   border-radius: 500px; }
 
 .uk-range:focus::-ms-fill-lower,
 .uk-range:focus::-ms-fill-upper {
-  background: #d9d9d9; }
+  background: #d2d2d2; }
 
 /* ========================================================================
    Component: Form
@@ -1421,7 +1421,7 @@ button.uk-icon:not(:disabled) {
 .uk-input:disabled,
 .uk-select:disabled,
 .uk-textarea:disabled {
-  background-color: white;
+  background-color: #f8f8f8;
   color: #999;
   border-color: #e5e5e5; }
 
@@ -1630,7 +1630,7 @@ select.uk-form-width-xsmall {
  */
 .uk-radio:disabled,
 .uk-checkbox:disabled {
-  background-color: white;
+  background-color: #f8f8f8;
   border-color: #e5e5e5; }
 
 .uk-radio:disabled:checked {
@@ -2168,7 +2168,7 @@ select.uk-form-width-xsmall {
  * Muted
  */
 .uk-section-muted {
-  background: white; }
+  background: #f8f8f8; }
 
 /*
  * Primary
@@ -2654,7 +2654,7 @@ select.uk-form-width-xsmall {
  * Muted
  */
 .uk-tile-muted {
-  background: white; }
+  background: #f8f8f8; }
 
 /*
  * Primary
@@ -3017,7 +3017,7 @@ select.uk-form-width-xsmall {
   position: relative;
   margin-bottom: 20px;
   padding: 15px 29px 15px 15px;
-  background: white;
+  background: #f8f8f8;
   color: #666; }
 
 /* Add margin if adjacent element */
@@ -3326,7 +3326,7 @@ select.uk-form-width-xsmall {
  ========================================================================== */
 .uk-comment-primary {
   padding: 30px;
-  background-color: white; }
+  background-color: #f8f8f8; }
 
 /* ========================================================================
    Component: Search
@@ -3745,7 +3745,8 @@ ul.uk-nav-sub {
 /* Container
  ========================================================================== */
 .uk-navbar-container:not(.uk-navbar-transparent) {
-  background: white; }
+     background: linear-gradient(to left, #28a5f5, #1e87f0);
+ }
 
 /*
  * Remove pseudo elements created by micro clearfix as precaution (if Container component is used)
@@ -3881,7 +3882,7 @@ ul.uk-nav-sub {
  * Nav items
  */
 .uk-navbar-nav > li > a {
-  color: #999;
+  color: white;
   text-transform: uppercase;
   -webkit-transition: 0.1s ease-in-out;
   transition: 0.1s ease-in-out;
@@ -4218,12 +4219,12 @@ ul.uk-nav-sub {
 /* Hover + Focus */
 .uk-subnav-pill > * > a:hover,
 .uk-subnav-pill > * > a:focus {
-  background-color: white;
+  background-color: #f8f8f8;
   color: #666; }
 
 /* OnClick */
 .uk-subnav-pill > * > a:active {
-  background-color: white;
+  background-color: #f8f8f8;
   color: #666; }
 
 /* Active */
@@ -5616,7 +5617,7 @@ ul.uk-nav-sub {
   position: relative;
   margin-bottom: 10px;
   padding: 15px;
-  background: white;
+  background: #f8f8f8;
   color: #666;
   font-size: 1.25rem;
   line-height: 1.4;
@@ -5743,7 +5744,7 @@ ul.uk-nav-sub {
   /* 3 */
   border: 0;
   /* 4 */
-  background-color: white;
+  background-color: #f8f8f8;
   /* 5 */
   margin-bottom: 20px;
   height: 15px;
@@ -5765,7 +5766,7 @@ ul.uk-nav-sub {
  * 2. Remove progress bar for indeterminate state in Firefox
  */
 .uk-progress::-webkit-progress-bar {
-  background-color: white;
+  background-color: #f8f8f8;
   border-radius: 500px;
   overflow: hidden; }
 
@@ -7286,7 +7287,7 @@ td.uk-text-break {
   background-color: #fff; }
 
 .uk-background-muted {
-  background-color: white; }
+  background-color: #f8f8f8; }
 
 .uk-background-primary {
   background-color: #1e87f0; }

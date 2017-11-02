@@ -32,6 +32,20 @@
 
 <!-- Our Main Stylesheet-->
  <link rel="stylesheet" type="text/css" href="scss/main.css">
+<style type="text/css">
+    .uk-navbar-container{
+   background: linear-gradient(to left, #28a5f5, #1e87f0);
+
+    }
+.uk-offcanvas-bar{
+    background-color: white;
+    color: black;
+}
+
+.uk-offcanvas-bar .uk-nav-default > li.uk-active > a{
+    color:black;
+}
+</style>
 
 </head>
 <body>
@@ -79,26 +93,25 @@
     float:left;
     width:100%;
     min-height:500px;
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,2989d8+100,207cca+100,7db9e8+100 */
-    background: rgba(30, 87, 153, 0.55); /* Old browsers */
-    background: -moz-linear-gradient(left, #1e5799 0%, #2989d8 100%, #207cca 100%, #7db9e8 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(left, rgba(30, 87, 153, 0.45) 0%,#2989d8 100%,rgba(32, 124, 202, 0.26) 100%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right, rgba(30, 87, 153, 0.64) 0%,rgba(41, 137, 216, 0.65) 100%,rgba(32, 124, 202, 0.39) 100%,rgba(125, 185, 232, 0.81) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 */
+   background: rgba(85, 153, 255, 0.63);
+    background: -moz-linear-gradient(left, #5599FF 0%, #2DCDED 100%, #2DCDED 100%);
+    background: -webkit-linear-gradient(left, rgba(85, 153, 255, 0.66) 0%, #2DCDED 100%, rgba(45, 205, 237, 0.64) 100%);
+    background: linear-gradient(to right, rgba(85, 153, 255, 0.63) 0%, rgba(45, 205, 237, 0.59) 100%, #2DCDED 100%);
     z-index:10;"></div>
   
     <video autoplay loop muted playsinline uk-cover>
         <source src="vk.mp4" type="video/mp4">
     </video>
 </div>
-<h1 class="uk-align-center uk-heading-primary ">Heading</h1>
+<br>
+<center><h1 class="uk-heading-primary">Heading</h1></center>
 <hr class="uk-divider-icon">
 <div class="uk-section uk-section-primary uk-preserve-color">
 <div class="uk-container">
 <div class="uk-child-width-expand@s" uk-grid>
 	    <div>
-        <h3>Heading</h3>
-        <p>
+        <h3 style="color: white;">Heading</h3>
+        <p style="color: white;">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
         </p>
     </div>
@@ -112,7 +125,11 @@
      </div></div>
 </div>
 </div>
-
+<div class="uk-width-1-1@m uk-first-column">
+    <h2 class="uk-width-medium uk-h1 uk-scrollspy-inview uk-animation-slide-bottom-medium" uk-scrollspy-class="" style="">
+        Event Speakers    </h2>
+<div class="uk-divider-small uk-scrollspy-inview uk-animation-slide-bottom-medium" uk-scrollspy-class="" style=""></div>
+</div>
 <a href="#" uk-totop uk-scroll></a>
 
 <!-- UIkit JS -->
